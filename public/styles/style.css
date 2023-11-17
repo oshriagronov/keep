@@ -1,0 +1,119 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #F5F7F8;
+}
+
+body{
+    margin: 0 0;
+    background-color: #45474B;
+}
+
+
+.header{
+    text-align: left;
+    background-color: #F4CE14;
+    margin:  0px auto;
+    padding: 20px 20px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h3{
+    margin: 5px 0px 10px 0px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    margin: 20px 50px;
+    max-width: auto;
+}
+
+.note{
+    border: 1px solid #F5F7F8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: 200px;
+    /*max-height: 300px;*/
+    margin: 20px;
+    padding: 15px;
+    text-align: left;
+    position: relative;
+}
+
+.note p{
+    margin: 0 0;
+    white-space: pre-wrap;
+}
+
+
+
+footer{
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    height: 2.5rem;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    max-width: 500px;
+    align-items: center;
+}
+
+textarea{
+    background-color: #45474B;
+    border: none;
+    border-radius: 10px;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none; /*remove the resize handle on the bottom right*/
+
+    padding: 10px;
+}
+
+.input-box{
+    border: 1px solid #F5F7F8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    position: relative;
+}
+
+button{
+    font-size: 25px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.delete-button{
+    background-color: #F5F7F8;
+    color: #45474B;
+    border: 1px solid #45474B;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0px;
+    margin: -5px -10px;
+}
+
+#add-button{
+    background-color: #F4CE14;
+    color: #F5F7F8;
+    padding: 0px;
+    margin: -10px -10px;
+    border: 1px solid #45474B;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
